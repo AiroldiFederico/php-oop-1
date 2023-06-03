@@ -1,0 +1,11 @@
+# ESERCIZIO
+
+### Title: php-oop-1
+---
+**ALUNNO:** FEDERICO AIROLDI
+
+**DATA:** 31 MAGGIO 2023
+
+**STATO DELL'ESERCIZIO:** WIP
+
+_Boolean Classe #93_
