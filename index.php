@@ -16,6 +16,7 @@ class Movie {
     public $anno;
     public $regista;
     public $genere;
+    public $prezzoBiglietto;
 
     #costruttore
     function __construct($durata, $anno, $regista, $genere)
@@ -26,7 +27,18 @@ class Movie {
         $this->genere = $genere;
     }
 
+    #metodo
+    public function setPrezzo($durata){
+        if( $durata > 120 ){
+            $this->prezzoBiglietto = '12$';
+        } else {
+            $this->prezzoBiglietto = '9$';
+        }
+    }
 
+    public function getDurata() {
+        return $this->durata;
+    }
 
 }
 
