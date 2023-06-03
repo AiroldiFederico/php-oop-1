@@ -17,6 +17,14 @@ class Movie {
     public $regista;
     public $genere;
 
+    #costruttore
+    function __construct($durata, $anno, $regista, $genere)
+    {
+        $this->durata = $durata;
+        $this->anno = $anno;
+        $this->regista = $regista;
+        $this->genere = $genere;
+    }
 
 
 
