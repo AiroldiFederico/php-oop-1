@@ -16,8 +16,9 @@ class Movie {
     public $poster;
     public $prezzoBiglietto;
 
+
     #costruttore
-    function __construct($titolo, $durata, $anno, $regista, $genere, $poster )
+    function __construct(String $titolo, Int $durata, Int $anno, String $regista, Array $genere, String $poster )
     {   
         $this->titolo = $titolo;
         $this->durata = $durata;
